@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+ 
+    
+
+}
+
+.header{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+
+
+    
+}
+.header  a,h1{
+    margin-right: 1em;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: auto;
+}
+
+
+
+.nav-container{
+    
+    background: #efefef;
+    border-radius: 2px;
+    box-shadow: 0 6px 4px 0 rgba(66, 93, 198, 0.627);    
+    margin-top: 10px;
+    padding: 8px;
+
+}
+
