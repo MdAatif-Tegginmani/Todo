@@ -1,7 +1,7 @@
+import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Form from './components/Form'
-import { useState } from 'react'
 import TodoList from './components/TodoList'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header></Header>
       <Form todo={todo} setTodo={setTodo} todoList={todoList} setTodoList={setTodoList} ></Form>
 
-      <TodoList todoList={todoList}></TodoList>
+      <TodoList setTodoList={setTodoList} todoList={todoList}></TodoList>
 
 
     </div>

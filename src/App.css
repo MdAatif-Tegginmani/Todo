@@ -51,7 +51,7 @@
     font-size: 1.2em;
     color: white;
     padding: 8px;
-
+   
 
 }
 
@@ -61,21 +61,24 @@
     border: 2px solid whitesmoke;
     padding: 20px;
     margin-top: 20px;
-
+   
 
 
 }
 
 .todoDeletebtn{
     border: none;
-    height: 50px;
-    background-color: tomato;
-    width: 100px;
-    border-radius: 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(166, 116, 107);
     color: white;
+    margin-top: 10px;
 
 }
 
 .todoname{
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+
 }
